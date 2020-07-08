@@ -4,9 +4,19 @@
     <title>Users</title>
 </head>
 <body>
+    <p>Person: <%= @person %></p>
+    <p>Theme: <%= @theme %></p>
+    
+    <h1>Person List</h1>
     <ul>
-        <% @users.each do |user| %>
-            <li><%= user.email %></li>
+        <% @persons.each do |person| %>
+            <li><%= person %></li>
+        <% end %>
+    </ul>
+    <h1>Theme List</h1>
+    <ul>
+        <% @themes.each do |theme| %>
+            <li><%= theme %></li>
         <% end %>
     </ul>
 </body>
