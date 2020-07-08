@@ -9,5 +9,6 @@ gem 'rake'
 gem 'pry'
 
 group :test do
-  gem 'rspec-core'
+  gem 'rack-test'
+  gem 'rspec'
 end
