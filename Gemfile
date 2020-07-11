@@ -1,14 +1,12 @@
 # frozen_string_literal: true
 
-source 'http://rubygems.org'
+source "https://rubygems.org"
 
-gem 'activerecord'
-gem 'sinatra-activerecord'
-gem 'sqlite3'
-gem 'rake'
+gem "rack"
+gem "sinatra"
+gem "activesupport"
 gem 'pry'
-
 group :test do
-  gem 'rack-test'
-  gem 'rspec'
+  gem "rspec"
+  gem "rack-test"
 end
