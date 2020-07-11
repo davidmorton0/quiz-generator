@@ -1,12 +1,13 @@
-require File.expand_path '../spec_helper.rb', __FILE__
 
-describe "App Routes" do
+
+RSpec.describe "App Routes" do
+  
   it "should access the main page" do
     get '/'
     expect(last_response).to be_ok
   end
   
-  it "should access the set quiz route" do
+    it "should access the set quiz route" do
     post '/set_quiz'
     expect(last_response).to be_ok
   end

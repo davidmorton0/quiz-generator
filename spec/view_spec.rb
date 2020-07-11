@@ -1,3 +1,4 @@
+=begin
 require File.expand_path '../spec_helper.rb', __FILE__
 
 describe "Index Page" do
@@ -35,3 +36,4 @@ describe "Index Page" do
   end
   
 end
+=end
